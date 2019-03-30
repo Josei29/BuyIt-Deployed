@@ -1,0 +1,16 @@
+.Header {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Test {
+    margin: 20px auto;
+    width: 100%;
+    font-family: "Archivo Narrow Regular", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #FF5335;
+};

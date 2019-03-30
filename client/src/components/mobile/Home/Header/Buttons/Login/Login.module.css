@@ -1,0 +1,16 @@
+.Login {
+    display: inline-block;
+    height: 48px;
+    width: 35%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 41px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 	0.75rem;
+    color: white;
+    background-color: #FF5335;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+};

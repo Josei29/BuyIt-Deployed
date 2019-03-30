@@ -1,0 +1,16 @@
+import React from "react";
+
+const back = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="128.161" height="39" viewBox="0 0 128.161 39">
+        <g id="Group_24" data-name="Group 24" transform="translate(-255.839 -56)">
+            <text id="Lists" transform="translate(301 87)" fill="#3e92a3" fontSize="36" fontFamily="JuliusSansOne-Regular, Julius Sans One"><tspan x="0" y="0">Lists</tspan></text>
+            <g id="Group_8" data-name="Group 8" transform="translate(44)">
+                <line id="Line_8" data-name="Line 8" x1="37" transform="translate(212.5 75.5)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="1" />
+                <line id="Line_9" data-name="Line 9" y1="9" x2="20" transform="translate(212.5 66.5)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="1" />
+                <line id="Line_10" data-name="Line 10" x2="22" y2="9" transform="translate(212.5 75.5)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="1" />
+            </g>
+        </g>
+    </svg>
+);
+
+export default back;
