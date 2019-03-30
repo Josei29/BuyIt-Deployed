@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import classes from "./Login.module.css";
+import classes from "./Login.css";
 import LoginSVG from "./LoginSVG"; 
 
 const login = (props) => {
