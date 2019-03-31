@@ -6,19 +6,14 @@ const mongoose = require("mongoose");
 // Creating our PORT
 const PORT = process.env.PORT || 3002;
 const app = express();
-const path = require('path');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+  app.use(express.static("buyit/build"));
 }
-
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-});
 
 // Creating the connection to our DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/buyit");
