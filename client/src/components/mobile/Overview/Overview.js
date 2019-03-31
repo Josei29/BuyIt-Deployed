@@ -52,7 +52,7 @@ const overview = (props) => {
             {noListFound ? <p className={classes.Test} >Start Adding Some Lists!</p> : null}
             {showBackdrop ? <Backdrop show={showBackdrop} remove={removeBackdrop} /> : null}
             {showBackdrop ? <Modal {...props} click={removeBackdrop} /> : null}
-            {props.userList ? props.userList.map((list) => {
+            {props.userList.length > 0 ? props.userList.map((list) => {
                 return <Lists key={list._id} {...props} list={list} />
             }) : null}
         </div>
