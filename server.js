@@ -1,6 +1,7 @@
 // Setting our dependecies and requiring the npm packages for our server-side code
 // Express to create our own server
 const express = require("express");
+const path = require("path");
 // Very useful npm package if you're using MongoDB
 const mongoose = require("mongoose");
 // Creating our PORT
