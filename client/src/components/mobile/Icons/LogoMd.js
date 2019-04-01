@@ -1,0 +1,44 @@
+import React from "react";
+
+const logo = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="128" height="187" viewBox="0 0 128 187">
+        <g id="Group_22" data-name="Group 22" transform="translate(-143 -35)">
+            <g id="Group_6" data-name="Group 6" transform="translate(819 77)">
+                <g id="Group_5" data-name="Group 5" transform="translate(-668 -42)">
+                    <g id="Ellipse_1" data-name="Ellipse 1" fill="#dfe0d4" stroke="#353940" strokeWidth="3">
+                        <circle cx="56.399" cy="56.399" r="56.399" stroke="none" />
+                        <circle cx="56.399" cy="56.399" r="54.899" fill="none" />
+                    </g>
+                    <g id="Group_2" data-name="Group 2" transform="translate(26.178 19.587)">
+                        <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+                            <path id="Path_1" data-name="Path 1" d="M-588-71.356s-3.189-1.748-5.368.222c-1.066.963-2.213,4.095-1.563,6.907a10.486,10.486,0,0,0,4.013,5.589A2.2,2.2,0,0,0-588-58.947a2.837,2.837,0,0,0,2.758.542,10.423,10.423,0,0,0,4.321-5.823c.763-2.425-.2-5.929-1.477-6.907A5.209,5.209,0,0,0-588-71.356Z" transform="translate(595.116 78.219)" fill="none" stroke="#ff5335" strokeWidth="2" />
+                            <path id="Path_2" data-name="Path 2" d="M-579.908-76.51s1.6-4.334,2.314-4.358,2.216.665,1.76,1.01-3.816,3.607-3.816,3.607" transform="translate(586.782 83.028)" fill="none" stroke="#ff5335" strokeWidth="2" />
+                            <g id="Path_3" data-name="Path 3" transform="matrix(0.755, 0.656, -0.656, 0.755, 3.677, 0)" fill="none">
+                                <path d="M2.962,0C4.6,0,5.924.971,5.924,1.715s-1.326,1.6-2.962,1.6S0,2.459,0,1.715,1.326,0,2.962,0Z" stroke="none" />
+                                <path d="M 2.961811304092407 -2.86102294921875e-06 C 4.59757137298584 -2.86102294921875e-06 5.92362117767334 0.970527172088623 5.92362117767334 1.714957237243652 C 5.92362117767334 2.459397315979004 4.59757137298584 3.312397241592407 2.961811304092407 3.312397241592407 C 1.326051235198975 3.312397241592407 1.430511474609375e-06 2.459397315979004 1.430511474609375e-06 1.714957237243652 C 1.430511474609375e-06 0.970527172088623 1.326051235198975 -2.86102294921875e-06 2.961811304092407 -2.86102294921875e-06 Z" stroke="none" fill="#ff5335" />
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group_3" data-name="Group 3" transform="translate(27.628 47.637)">
+                        <path id="Path_4" data-name="Path 4" d="M-548.163-86.887s-5.958,7.453-6.073,11.074,3.7,6.207,6.073,6.131,6.131-1.973,6.131-6.131S-548.163-86.887-548.163-86.887Z" transform="translate(554.239 86.887)" fill="none" stroke="#ff5335" strokeWidth="2" />
+                        <path id="Path_5" data-name="Path 5" d="M-543.687-74.567a4.844,4.844,0,0,1-2.126,3.64" transform="translate(553.518 85.832)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                    </g>
+                    <g id="Group_4" data-name="Group 4" transform="translate(26.355 73.153)">
+                        <path id="Path_6" data-name="Path 6" d="M-557.679-105.979v16.523h10.762V-106.4h-12.97v16.1l2.208.848" transform="translate(559.887 106.403)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+                        <path id="Path_7" data-name="Path 7" d="M-551.689-103.292a24.172,24.172,0,0,1-.526,6.931" transform="translate(559.175 106.114)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                        <path id="Path_8" data-name="Path 8" d="M-552.427-97.549l-2.076-.731" transform="translate(559.388 105.649)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                        <path id="Path_10" data-name="Path 10" d="M-552.427-97.549l-2.076-.731" transform="translate(562.109 104.742)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                        <path id="Path_11" data-name="Path 11" d="M-552.427-97.549l-2.076-.731" transform="translate(562.109 102.02)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                        <path id="Path_9" data-name="Path 9" d="M-552.427-97.549l-2.076-.731" transform="translate(559.388 102.02)" fill="none" stroke="#ff5335" strokeLinecap="round" strokeWidth="2" />
+                    </g>
+                    <line id="Line_1" data-name="Line 1" x2="27.813" transform="translate(49.832 29.744)" fill="none" stroke="#3e92a3" strokeLinecap="round" strokeWidth="5" />
+                    <line id="Line_2" data-name="Line 2" x2="44.81" transform="translate(49.832 56.012)" fill="none" stroke="#3e92a3" strokeLinecap="round" strokeWidth="5" />
+                    <line id="Line_3" data-name="Line 3" x2="29.358" transform="translate(48.286 81.508)" fill="none" stroke="#3e92a3" strokeLinecap="round" strokeWidth="5" />
+                </g>
+            </g>
+            <text id="BuyIt" transform="translate(207 212)" fill="#353940" fontSize="46" fontFamily="JuliusSansOne-Regular, Julius Sans One"><tspan x="-63.917" y="0">BuyIt</tspan></text>
+        </g>
+    </svg>
+);
+
+export default logo;

@@ -1,0 +1,14 @@
+.Item {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #3E92A3;
+    font-size: 1.75rem;
+    font-family: "Archivo Narrow Regular", sans-serif;
+    border: 1px solid #DFE0D4;
+    border-left: none;
+    border-right: none;
+};
