@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  app.use('/static', express.static('build'));
+  app.use("/static", express.static("client/build"));
 }
 
 // Creating the connection to our DB
