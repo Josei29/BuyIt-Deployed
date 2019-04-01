@@ -6,7 +6,7 @@ import AddItem from "./Add/Add";
 import Item from "./Item/Item";
 import CheckedItem from "./Checked/Checked";
 import CartSVG from "../../../Icons/Cart";
-import classes from "./List.module.css";
+import "./List.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../../store/actions";
 
@@ -85,7 +85,7 @@ const list = (props) => {
 
     return (
         <div>
-            <header className={classes.Header} >
+            <header className="Header" >
                 <Link 
                     to="/"
                     style={headerStyle}

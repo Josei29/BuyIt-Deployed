@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "./Add.module.css";
+import "./Add.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../../../store/actions";
 
@@ -38,7 +38,7 @@ const add = (props) => {
 
     return (
         <div>
-            <form className={classes.Form} >
+            <form className="Form" >
                 <span onClick={addItemHandler}>
                 +
                 </span>

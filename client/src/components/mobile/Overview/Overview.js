@@ -5,7 +5,7 @@ import LogoSmSVG from "../Icons/LogoSm";
 import Lists from "./Lists/Lists";
 import Backdrop from "../../UI/Backdrop/Backdrop";
 import Modal from "./Modal/Modal";
-import classes from "./Overview.module.css";
+import "./Overview.css";
 import { connect } from "react-redux";
 import * as actions from "../../../store/actions";
 
@@ -34,7 +34,7 @@ const overview = (props) => {
 
     return(
         <div>
-            <header className={classes.Header}>
+            <header className="Header">
                 <Link 
                     to="/"
                     style={headerStyle}
@@ -49,7 +49,7 @@ const overview = (props) => {
                     <AddSVG />
                 </div>
             </header>
-            {noListFound ? <p className={classes.Test} >Start Adding Some Lists!</p> : null}
+            {noListFound ? <p className="Test" >Start Adding Some Lists!</p> : null}
             {showBackdrop ? <Backdrop show={showBackdrop} remove={removeBackdrop} /> : null}
             {showBackdrop ? <Modal {...props} click={removeBackdrop} /> : null}
             {props.userList.map(list => {

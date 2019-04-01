@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Backdrop.module.css";
+import "./Backdrop.css";
 
 const backdrop = (props) => {
     return (
@@ -7,7 +7,7 @@ const backdrop = (props) => {
         {props.show ? 
             <div 
                 onClick={props.remove}
-                className={classes.Backdrop}
+                className="Backdrop"
             ></div> 
         : null}
         </React.Fragment>

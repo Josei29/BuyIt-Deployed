@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MailSVG from "../../Icons/Mail";
 import PasswordSVG from "../../Icons/Password";
 import UserSVG from "../../Icons/User";
-import classes from "./Form.module.css";
+import "./Form.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../store/actions";
 
@@ -73,7 +73,7 @@ const form = (props) => {
         {missingInfo ? <p style={errorStyle}>Information Missing!</p> : null}
         {props.error ? <p style={errorStyle}>Email Already In Use!</p> : null}
         <form onSubmit={formSubmitHandler}>
-            <label className={classes.Label}>
+            <label className="Label">
                 <UserSVG />
                 <input 
                     type="text" 
@@ -83,7 +83,7 @@ const form = (props) => {
                     onChange={inputChangeHandler}
                 />
             </label>
-            <label className={classes.Label}>
+            <label className="Label">
                 <MailSVG />
                 <input 
                     type="email" 
@@ -93,7 +93,7 @@ const form = (props) => {
                     onChange={inputChangeHandler}
                 />
             </label>
-            <label className={classes.Label}>
+            <label className="Label">
                 <PasswordSVG />
                 <input 
                     type="password" 

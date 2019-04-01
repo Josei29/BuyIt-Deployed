@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import classes from "./Login.module.css";
+import "./Login.css";
 import LoginSVG from "./LoginSVG"; 
 
 const login = (props) => {
     return(
-        <div className={classes.Login}>
+        <div className="Login">
             <Link 
                 to="/login"
                 style={{

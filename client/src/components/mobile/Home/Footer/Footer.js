@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./Footer.module.css";
+import "./Footer.css";
 
 const footer = () => (
-    <p className={classes.Footer}>
+    <p className="Footer">
         <a 
             href="https://Josei29.github.io/"
             target="_blank"
