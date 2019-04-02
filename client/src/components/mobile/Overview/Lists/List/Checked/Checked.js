@@ -1,6 +1,5 @@
 import React from "react";
 import CheckedSVG from "../../../../Icons/Checked";
-import "./Checked.css";
 
 const checkedItem = (props) => {
     let priceStyle = {
@@ -15,7 +14,7 @@ const checkedItem = (props) => {
     };
 
     return (
-        <div className="Checked" onClick={() => props.click(props.id)} >
+        <div className="checked__item__mobile" onClick={() => props.click(props.id)} >
             <CheckedSVG />
             <span style={crossedStyle}>{props.name}</span>
             <span style={priceStyle}>$</span>

@@ -6,7 +6,6 @@ import AddItem from "./Add/Add";
 import Item from "./Item/Item";
 import CheckedItem from "./Checked/Checked";
 import CartSVG from "../../../Icons/Cart";
-import "./List.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../../store/actions";
 
@@ -85,7 +84,7 @@ const list = (props) => {
 
     return (
         <div>
-            <header className="Header" >
+            <header className="list__header__mobile" >
                 <Link 
                     to="/"
                     style={headerStyle}

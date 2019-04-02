@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Modal.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../store/actions";
 
@@ -34,7 +33,7 @@ const modal = (props) => {
     };
 
     return (
-        <div className="Modal">
+        <div className="modal__mobile">
             <span 
                 onClick={addListHandler}
                 style={addStyle}

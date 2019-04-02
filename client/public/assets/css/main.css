@@ -65,3 +65,114 @@
     border-color: transparent;
     cursor: pointer;
 };
+
+.home__logo__mobile {
+    width: max-content;
+    margin: 20px auto;
+};
+
+.md__logo__mobile {
+    text-align: center;
+    margin: 20px auto;
+};
+
+.form__label__mobile {
+    width: 100%;
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+};
+
+.overview__header__mobile {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview__noitems__mobile {
+    margin: 20px auto;
+    width: 100%;
+    font-family: "Archivo Narrow Regular", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #FF5335;
+};
+
+.modal__mobile {
+    z-index: 100;
+    margin: 0 auto;
+    background-color: white;
+    height: 100px;
+    width: 330px;
+    position: fixed;
+    left: 42px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+};
+
+.lists__mobile {
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    font-size: 3rem;
+    color: #3E92A3;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px #919191;
+    font-family: "Julius Sans One", sans-serif;
+};
+
+.list__header__mobile {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+};
+
+.list__item__mobile {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #3E92A3;
+    font-size: 1.75rem;
+    font-family: "Archivo Narrow Regular", sans-serif;
+    border: 1px solid #DFE0D4;
+    border-left: none;
+    border-right: none;
+};
+
+.checked__item__mobile {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #3E92A3;
+    font-size: 1.75rem;
+    font-family: "Archivo Narrow Regular", sans-serif;
+    border: 1px solid #DFE0D4;
+    border-left: none;
+    border-right: none;
+};
+
+.add__form__mobile {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    color: #FF5335;
+    font-size: 1.5rem;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #919191;
+};

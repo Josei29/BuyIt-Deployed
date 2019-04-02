@@ -1,10 +1,9 @@
 import React from "react";
 import LogoSVG from "./LogoSVG";
-import "./Logo.css";
 
 const logo = (props) => {
     return(
-        <div className="Logo">
+        <div className="home__logo__mobile">
             <LogoSVG />
         </div>
     );

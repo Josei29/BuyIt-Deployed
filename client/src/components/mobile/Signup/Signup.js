@@ -2,12 +2,11 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Logo from "../Icons/LogoMd";
 import Form from "./Form/Form";
-import "./Signup.css";
 
 const signup = (props) => {
     return(
         <div>
-            <div className="Logo">
+            <div className="md__logo__mobile">
                 <Link to="/">
                     <Logo />
                 </Link>
