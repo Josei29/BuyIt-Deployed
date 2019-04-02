@@ -1,4 +1,4 @@
-.Description {
+.description__mobile {
     margin: 0 auto;
     width: 80%;
     text-align: center;
@@ -6,3 +6,62 @@
     font-family: 'Archivo Narrow', sans-serif;
     color: #3E92A3;
 }
+
+.footer__mobile {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Julius Sans Serif", sans-serif;
+    color: #FF5335;
+};
+
+
+.backdrop__mobile {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    background-color: #707070;
+    opacity: 0.8;
+};
+
+.header__mobile {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.login__mobile {
+    display: inline-block;
+    height: 48px;
+    width: 35%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 41px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 	0.75rem;
+    color: white;
+    background-color: #FF5335;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+};
+
+.signup__mobile {
+    display: inline-block;
+    height: 48px;
+    width: 35%;
+    padding: 10px;
+    margin: 0 41px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 	0.75rem;
+    color: white;
+    background-color: #3E92A3;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+};

@@ -1,9 +1,8 @@
 import React from "react";
-//import "./assets/css/main.css";
 
 const description = (props) => {
     return(
-        <div className="Description">
+        <div className="description__mobile">
             Keep track of what you need and make sure it's inside your budget!
         </div>
     );

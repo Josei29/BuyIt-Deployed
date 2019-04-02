@@ -5,7 +5,7 @@ import LoginSVG from "./LoginSVG";
 
 const login = (props) => {
     return(
-        <div className="Login">
+        <div className="login__mobile">
             <Link 
                 to="/login"
                 style={{

@@ -5,7 +5,7 @@ import SignupSVG from "./SignupSVG";
 
 const signup = (props) => {
     return(
-        <div className="Signup">
+        <div className="signup__mobile">
             <Link 
                 to="/signup"
                 style={{
