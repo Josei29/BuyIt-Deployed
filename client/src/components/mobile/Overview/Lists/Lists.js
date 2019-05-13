@@ -1,5 +1,6 @@
 import React from "react";
 import DeleteSVG from "../../Icons/Close";
+import classes from "./Lists.module.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../store/actions";
 
@@ -11,7 +12,8 @@ const lists = (props) => {
     };
 
     let nameStyle = {
-        margin: "0 auto"
+        margin: "0 auto",
+        overflow: "auto"
     };
 
     const displayListHandler = (id) => props.history.push("/list/" + id);
@@ -22,7 +24,7 @@ const lists = (props) => {
     };
 
     return(
-        <div className="lists__mobile" >
+        <div className={classes.Lists} >
             <p 
                 style={nameStyle}
                 onClick={() => displayListHandler(props.list._id)} 

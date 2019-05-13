@@ -1,7 +1,8 @@
 import React from "react";
+import classes from "./Footer.module.css";
 
 const footer = () => (
-    <p className="footer__mobile">
+    <p className={classes.Footer}>
         <a 
             href="https://Josei29.github.io/"
             target="_blank"

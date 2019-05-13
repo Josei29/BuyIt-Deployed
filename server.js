@@ -1,7 +1,6 @@
 // Setting our dependecies and requiring the npm packages for our server-side code
 // Express to create our own server
 const express = require("express");
-const path = require("path");
 // Very useful npm package if you're using MongoDB
 const mongoose = require("mongoose");
 // Creating our PORT
@@ -13,7 +12,7 @@ app.use(express.json());
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, '/client/build')));
+  app.use(express.static("buyit/build"));
 }
 
 // Creating the connection to our DB
@@ -24,12 +23,6 @@ const userRoutes = require("./routes/auth");
 const dataRoutes = require("./routes/data");
 // This will make our app be able to get the routes
 app.use(userRoutes, dataRoutes);
-
-// Send every other request to the React app
-// Define any API routes before this runs
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 // Finally the app goes live
 app.listen(PORT, () => {

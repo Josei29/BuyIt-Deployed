@@ -6,6 +6,7 @@ import AddItem from "./Add/Add";
 import Item from "./Item/Item";
 import CheckedItem from "./Checked/Checked";
 import CartSVG from "../../../Icons/Cart";
+import classes from "./List.module.css";
 import { connect } from "react-redux";
 import * as actions from "../../../../../store/actions";
 
@@ -77,17 +78,20 @@ const list = (props) => {
             if(props.listData[key].length === 0) {
                 noListData = true;
             };
-        }
-    }
+        };
+    };
+
+    const logout = () => props.logout();
 
     let total = 0;
 
     return (
         <div>
-            <header className="list__header__mobile" >
+            <header className={classes.Header} >
                 <Link 
                     to="/"
                     style={headerStyle}
+                    onClick={logout}
                 >
                     <LogoSmSVG />
                 </Link>
@@ -147,7 +151,8 @@ const mapDispatchToProps = dispatch => {
     return {
         getListData: (listId) => dispatch(actions.getListData(listId)),
         clearListData: () => dispatch(actions.clearListData()),
-        updateItem: (itemId) => dispatch(actions.updateItem(itemId))
+        updateItem: (itemId) => dispatch(actions.updateItem(itemId)),
+        logout: () => dispatch(actions.logout())
     };
 };
 

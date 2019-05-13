@@ -1,5 +1,6 @@
 import React from "react";
 import ItemSVG from "../../../../Icons/Item";
+import classes from "./Item.module.css"; 
 
 const item = (props) => {
     let priceStyle = {
@@ -9,7 +10,7 @@ const item = (props) => {
     };
 
     return (
-        <div className="list__item__mobile" onClick={() => props.click(props.id)}>
+        <div className={classes.Item} onClick={() => props.click(props.id)}>
             <ItemSVG />{props.name}
             <span style={priceStyle}>$</span>{props.price}
         </div>

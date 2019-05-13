@@ -1,10 +1,11 @@
 import React from "react";
+import classes from "./Header.module.css"
 import Login from "./Buttons/Login/Login";
 import Signup from "./Buttons/Signup/Signup";
 
 const header = (props) => {
     return(
-        <div className="header__mobile">
+        <div className={classes.Header}>
             <Login />
             <Signup />
         </div>

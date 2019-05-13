@@ -1,0 +1,16 @@
+.List {
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    height: 80px;
+    font-size: 2rem;
+    color: #3E92A3;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px #919191;
+    font-family: "Julius Sans One", sans-serif;
+    background-color: white;
+    cursor: pointer;
+};
